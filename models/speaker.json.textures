@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "speaker-grill-texture-background",
+        "1": "f344745bd37b52b4eaf0071e1160d070",
+        "missing": "minecraft:bamboo_planks"
+      },
+      "name": "default"
+    }
+  }
+}

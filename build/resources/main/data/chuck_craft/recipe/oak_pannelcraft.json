@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_wood"
+  },
+  "result": {
+    "id": "chuck_craft:oak_panel",
+    "count": 9
+  }
+}

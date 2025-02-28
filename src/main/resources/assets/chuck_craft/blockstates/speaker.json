@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chuck_craft:block/speaker"
+    },
+    "facing=east": {
+      "model": "chuck_craft:block/speaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chuck_craft:block/speaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chuck_craft:block/speaker",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "chuck_craft:block/speaker",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "chuck_craft:block/speaker",
+      "x": 90
+    }
+  }
+}

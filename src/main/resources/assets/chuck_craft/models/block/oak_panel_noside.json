@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "particle": "minecraft:block/oak_log",
+    "pane": "minecraft:block/oak_log"
+  },
+  "render_type": "cutout_mipped"
+}

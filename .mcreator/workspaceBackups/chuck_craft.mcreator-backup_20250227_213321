@@ -1,0 +1,95 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chuck",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Speaker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/block/entity/SpeakerBlockEntity.java",
+          "src/main/resources/assets/chuck_craft/models/item/speaker.json",
+          "src/main/resources/data/chuck_craft/loot_table/blocks/speaker.json",
+          "src/main/resources/assets/chuck_craft/blockstates/speaker.json",
+          "src/main/resources/assets/chuck_craft/models/block/speaker.json",
+          "src/main/java/net/airpioa/chuckcraft/block/SpeakerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeakerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/procedures/SpeakerBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Speaker"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.chuck_craft.speaker": "Speaker",
+      "item_group.chuck_craft.chuck": "Chuck"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chuck_craft",
+    "modName": "Chuck Craft",
+    "version": "1.0.0",
+    "author": "zylermillet, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.airpioa.chuckcraft"
+  },
+  "mcreatorVersion": 202400452410
+}

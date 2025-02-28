@@ -1,0 +1,11 @@
+{
+  "parent": "chuck_craft:custom/speaker",
+  "textures": {
+    "all": "minecraft:block/oak_log",
+    "particle": "chuck_craft:block/speaker-grill-texture-background",
+    "0": "chuck_craft:block/speaker-grill-texture-background",
+    "1": "chuck_craft:block/f344745bd37b52b4eaf0071e1160d070",
+    "missing": "minecraft:block/bamboo_planks"
+  },
+  "render_type": "solid"
+}

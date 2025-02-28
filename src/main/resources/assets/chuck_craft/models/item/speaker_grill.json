@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chuck_craft:item/speaker-grill-texture-background"
+  }
+}

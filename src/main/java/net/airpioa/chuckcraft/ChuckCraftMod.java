@@ -18,6 +18,11 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.airpioa.chuckcraft.init.ChuckCraftModTabs;
+import net.airpioa.chuckcraft.init.ChuckCraftModItems;
+import net.airpioa.chuckcraft.init.ChuckCraftModBlocks;
+import net.airpioa.chuckcraft.init.ChuckCraftModBlockEntities;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +40,12 @@ public class ChuckCraftMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		ChuckCraftModBlocks.REGISTRY.register(modEventBus);
+		ChuckCraftModBlockEntities.REGISTRY.register(modEventBus);
+		ChuckCraftModItems.REGISTRY.register(modEventBus);
+
+		ChuckCraftModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
