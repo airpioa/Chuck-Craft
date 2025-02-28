@@ -2,5 +2,10 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 0
+  "projectBrowserSplitPos": 280,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Chuck Craft]"
+    ]
+  }
 }
