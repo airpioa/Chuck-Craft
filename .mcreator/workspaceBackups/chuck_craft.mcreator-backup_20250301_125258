@@ -123,6 +123,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -139,10 +155,102 @@
           "src/main/java/net/airpioa/chuckcraft/item/ChuckItemItem.java"
         ]
       }
+    },
+    {
+      "name": "ChuckUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/world/inventory/ChuckUIMenu.java",
+          "src/main/java/net/airpioa/chuckcraft/client/gui/ChuckUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ChuckCMD",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/command/ChuckCMDCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ChuckImage",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_image",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chuck_craft/painting_variant/chuck_image.json"
+        ]
+      }
+    },
+    {
+      "name": "Chucked",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chucked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chuck_craft/advancement/chucked.json"
+        ]
+      }
+    },
+    {
+      "name": "Chucker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chucker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/procedures/ChuckerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chuckcfg",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuckcfg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/command/ChuckcfgCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "chuck_open_config",
+      "files": [
+        "chuck"
+      ],
+      "category": "master",
+      "subtitle": "chuck_open_config"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:OakPanel",
@@ -156,8 +264,15 @@
   "language_map": {
     "en_us": {
       "block.chuck_craft.speaker": "Speaker",
+      "advancements.chucked.title": "Chucked",
       "block.chuck_craft.oak_panel": "Oak Panel",
+      "painting.chuck_craft.chuck_image.author": "The Chuck Team",
+      "subtitles.chuck_open_config": "chuck_open_config",
+      "advancements.chucked.descr": "Get Chucked",
+      "painting.chuck_craft.chuck_image.title": "Chuck",
       "item.chuck_craft.chuck_item": "Chuck",
+      "gui.chuck_craft.chuck_ui.label_chuck_settings": "Chuck Settings",
+      "gui.chuck_craft.chuck_ui.button_open_chuck_folder": "Open chuck folder",
       "item_group.chuck_craft.chuck": "Chuck",
       "item.chuck_craft.speaker_grill": "Speaker Grill"
     }
@@ -175,12 +290,11 @@
     "websiteURL": "https://github.com/airpioa/Chuck-Craft",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "chuck-logo2023w",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "mcreator_link"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "The Chuck Team",
     "modElementsPackage": "net.airpioa.chuckcraft"

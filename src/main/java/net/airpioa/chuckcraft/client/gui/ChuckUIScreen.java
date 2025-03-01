@@ -77,7 +77,7 @@ public class ChuckUIScreen extends AbstractContainerScreen<ChuckUIMenu> {
 	public void init() {
 		super.init();
 		button_open_chuck_folder = Button.builder(Component.translatable("gui.chuck_craft.chuck_ui.button_open_chuck_folder"), e -> {
-		}).bounds(this.leftPos + 36, this.topPos + 33, 113, 20).build();
+		}).bounds(this.leftPos + 36, this.topPos + 24, 113, 20).build();
 		guistate.put("button:button_open_chuck_folder", button_open_chuck_folder);
 		this.addRenderableWidget(button_open_chuck_folder);
 	}

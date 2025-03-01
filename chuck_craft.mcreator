@@ -271,8 +271,8 @@
       "advancements.chucked.descr": "Get Chucked",
       "painting.chuck_craft.chuck_image.title": "Chuck",
       "item.chuck_craft.chuck_item": "Chuck",
-      "gui.chuck_craft.chuck_ui.label_chuck_settings": "Chuck Settings",
-      "gui.chuck_craft.chuck_ui.button_open_chuck_folder": "Open chuck folder",
+      "gui.chuck_craft.chuck_ui.label_chuck_settings": "Chuck",
+      "gui.chuck_craft.chuck_ui.button_open_chuck_folder": "Start / Stop VM",
       "item_group.chuck_craft.chuck": "Chuck",
       "item.chuck_craft.speaker_grill": "Speaker Grill"
     }
