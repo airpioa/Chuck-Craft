@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "chuck_craft:chuck_item"
+    },
+    "title": {
+      "translate": "advancements.chucked.title"
+    },
+    "description": {
+      "translate": "advancements.chucked.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "chucked_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bubble_column"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "chuck_craft:speaker_grill_craft",
+      "chuck_craft:oak_pannelcraft",
+      "chuck_craft:speaker_craft"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

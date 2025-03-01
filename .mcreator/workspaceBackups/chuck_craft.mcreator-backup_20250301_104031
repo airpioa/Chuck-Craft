@@ -1,0 +1,221 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chuck",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Speaker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/block/entity/SpeakerBlockEntity.java",
+          "src/main/resources/assets/chuck_craft/models/item/speaker.json",
+          "src/main/resources/data/chuck_craft/loot_table/blocks/speaker.json",
+          "src/main/resources/assets/chuck_craft/blockstates/speaker.json",
+          "src/main/resources/assets/chuck_craft/models/block/speaker.json",
+          "src/main/java/net/airpioa/chuckcraft/block/SpeakerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeakerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/procedures/SpeakerBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SpeakerGrill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_grill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/item/SpeakerGrillItem.java",
+          "src/main/resources/assets/chuck_craft/models/item/speaker_grill.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeakerGrillCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_grill_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chuck_craft/recipe/speaker_grill_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "OakPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chuck_craft/models/block/oak_panel_side_alt.json",
+          "src/main/resources/assets/chuck_craft/models/block/oak_panel_noside.json",
+          "src/main/resources/assets/chuck_craft/models/block/oak_panel_side.json",
+          "src/main/resources/data/chuck_craft/loot_table/blocks/oak_panel.json",
+          "src/main/resources/assets/chuck_craft/models/block/oak_panel_post.json",
+          "src/main/resources/assets/chuck_craft/models/item/oak_panel.json",
+          "src/main/resources/assets/chuck_craft/blockstates/oak_panel.json",
+          "src/main/java/net/airpioa/chuckcraft/block/OakPanelBlock.java",
+          "src/main/resources/assets/chuck_craft/models/block/oak_panel_noside_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "OakPannelcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_pannelcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chuck_craft/recipe/oak_pannelcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeakerCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chuck_craft/recipe/speaker_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "ChuckItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/procedures/ChuckItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChuckItem",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chuck_craft/models/item/chuck_item.json",
+          "src/main/java/net/airpioa/chuckcraft/item/ChuckItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChuckUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuck_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/airpioa/chuckcraft/world/inventory/ChuckUIMenu.java",
+          "src/main/java/net/airpioa/chuckcraft/client/gui/ChuckUIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:OakPanel",
+      "~CUSTOM:Speaker"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ChuckItem"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.chuck_craft.speaker": "Speaker",
+      "block.chuck_craft.oak_panel": "Oak Panel",
+      "item.chuck_craft.chuck_item": "Chuck",
+      "gui.chuck_craft.chuck_ui.label_chuck_settings": "Chuck Settings",
+      "gui.chuck_craft.chuck_ui.button_open_chuck_folder": "Open chuck folder",
+      "item_group.chuck_craft.chuck": "Chuck",
+      "item.chuck_craft.speaker_grill": "Speaker Grill"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chuck_craft",
+    "modName": "Chuck Craft",
+    "version": "1.0.0",
+    "description": "A project for porting chuck to minecraft",
+    "author": "Airpioa",
+    "websiteURL": "https://github.com/airpioa/Chuck-Craft",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "chuck-logo2023w",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "The Chuck Team",
+    "modElementsPackage": "net.airpioa.chuckcraft"
+  },
+  "mcreatorVersion": 202400452410
+}

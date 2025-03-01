@@ -10,3 +10,13 @@
 /raid glow
 /publish true
 /summon minecraft:cow
+/time set day
+/chuck
+/chuck Dev
+/gamemode survival
+/kill
+/chuck Dev
+/kill
+/chuck Dev
+/advancement revoke Dev everything
+/chuck Dev

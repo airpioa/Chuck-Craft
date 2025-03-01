@@ -1,0 +1,11 @@
+{
+  "chuck_open_config": {
+    "subtitle": "subtitles.chuck_open_config",
+    "sounds": [
+      {
+        "name": "chuck_craft:chuck",
+        "stream": false
+      }
+    ]
+  }
+}

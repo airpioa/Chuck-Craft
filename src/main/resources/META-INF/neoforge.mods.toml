@@ -29,12 +29,6 @@ description="A project for porting chuck to minecraft"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.chuck_craft]]
-    modId="mcreator_link"
-    type="required"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
 

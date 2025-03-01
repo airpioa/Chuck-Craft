@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.airpioa.chuckcraft.init.ChuckCraftModTabs;
+import net.airpioa.chuckcraft.init.ChuckCraftModSounds;
 import net.airpioa.chuckcraft.init.ChuckCraftModMenus;
 import net.airpioa.chuckcraft.init.ChuckCraftModItems;
 import net.airpioa.chuckcraft.init.ChuckCraftModBlocks;
@@ -41,7 +42,7 @@ public class ChuckCraftMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		ChuckCraftModSounds.REGISTRY.register(modEventBus);
 		ChuckCraftModBlocks.REGISTRY.register(modEventBus);
 		ChuckCraftModBlockEntities.REGISTRY.register(modEventBus);
 		ChuckCraftModItems.REGISTRY.register(modEventBus);

@@ -25,9 +25,9 @@ public class ChuckItemRightclickedProcedure {
 			return;
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.heavy_core.fall")), SoundSource.MASTER, 1, 1);
+				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("chuck_craft:chuck_open_config")), SoundSource.MASTER, 1, 1);
 			} else {
-				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.heavy_core.fall")), SoundSource.MASTER, 1, 1, false);
+				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("chuck_craft:chuck_open_config")), SoundSource.MASTER, 1, 1, false);
 			}
 		}
 		if (entity instanceof ServerPlayer _ent) {
