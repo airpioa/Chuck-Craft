@@ -1,1 +1,12 @@
 /kill
+/summon minecraft:blaze
+/summon minecraft:armadillo
+/kill
+/summon minecraft:blaze
+/spawn_armor_trims
+/raid start
+/raid start 9
+/raid spawnleader
+/raid glow
+/publish true
+/summon minecraft:cow

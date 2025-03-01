@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "chuck_craft:item/chuck-logo2023w"
+  }
+}

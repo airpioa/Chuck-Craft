@@ -4,7 +4,7 @@
   "definition": {
     "name": "Chuck",
     "icon": {
-      "value": "Items.MUSIC_DISC_PIGSTEP"
+      "value": "CUSTOM:ChuckItem"
     },
     "showSearch": false
   }

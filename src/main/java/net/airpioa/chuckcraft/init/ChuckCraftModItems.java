@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.airpioa.chuckcraft.item.SpeakerGrillItem;
+import net.airpioa.chuckcraft.item.ChuckItemItem;
 import net.airpioa.chuckcraft.ChuckCraftMod;
 
 public class ChuckCraftModItems {
@@ -20,6 +21,7 @@ public class ChuckCraftModItems {
 	public static final DeferredItem<Item> SPEAKER = block(ChuckCraftModBlocks.SPEAKER);
 	public static final DeferredItem<Item> SPEAKER_GRILL = REGISTRY.register("speaker_grill", SpeakerGrillItem::new);
 	public static final DeferredItem<Item> OAK_PANEL = block(ChuckCraftModBlocks.OAK_PANEL);
+	public static final DeferredItem<Item> CHUCK_ITEM = REGISTRY.register("chuck_item", ChuckItemItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

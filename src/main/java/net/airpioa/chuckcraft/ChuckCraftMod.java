@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.airpioa.chuckcraft.init.ChuckCraftModTabs;
+import net.airpioa.chuckcraft.init.ChuckCraftModMenus;
 import net.airpioa.chuckcraft.init.ChuckCraftModItems;
 import net.airpioa.chuckcraft.init.ChuckCraftModBlocks;
 import net.airpioa.chuckcraft.init.ChuckCraftModBlockEntities;
@@ -46,6 +47,8 @@ public class ChuckCraftMod {
 		ChuckCraftModItems.REGISTRY.register(modEventBus);
 
 		ChuckCraftModTabs.REGISTRY.register(modEventBus);
+
+		ChuckCraftModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "chuck_craft:speaker_grill"
+  },
+  "base": {
+    "item": "chuck_craft:oak_panel"
+  },
+  "addition": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "chuck_craft:speaker"
+  }
+}
